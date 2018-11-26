@@ -1,0 +1,25 @@
+{
+  "name": "kburnik/scheduler",
+  "type": "library",
+  "version": "0.0.1",
+  "description": "Simple scheduler with producer-consumer paradigm",
+  "keywords": ["scheduler"],
+  "license": "",
+  "authors": [
+    {
+      "name": "Kristijan Burnik",
+      "email": "kristijanburnik@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "illuminate/database": "5.0.*@dev"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "kburnik\\scheduler\\": "src/"
+    }
+  }
+}
